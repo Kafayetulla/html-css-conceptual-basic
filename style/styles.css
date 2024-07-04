@@ -3,7 +3,7 @@
     padding: 0;
 }
 h2{
-    color: red;
+    color:white;
     font-style: italic;
     font-weight: lighter;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -12,9 +12,27 @@ h2{
     text-align: center;
 }
 #heding-parent{
-    background-color: rgb(31,14,18);
+    background-image: linear-gradient(45deg,#730654,transparent),url(../asset/hero.gif);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
     height: 600px;
     padding: 100px 0;
-    width: 1100px;
-    margin:40px auto;
+   max-width: 1100px;
+    margin:40px auto; 
+}
+#btn-parent{
+    text-align: center;
+    margin: 20px 0;
+}
+#btn{
+    background-color: rgb(137, 41, 182);
+    color: #fff;
+    padding: 10px 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:yellow 
+    border-radius: 6px;
+    text-align: center;
+    font-size: 24px;
 }
