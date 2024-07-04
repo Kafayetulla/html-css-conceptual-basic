@@ -20,6 +20,7 @@ h2{
     padding: 100px 0;
    max-width: 1100px;
     margin:40px auto; 
+    clip-path: polygon(100% 0, 100% 66%, 82% 100%, 0 100%, 0 0);
 }
 #btn-parent{
     text-align: center;
